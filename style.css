@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(19, 18, 27);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px dashed white;
+    height: 100vh;
+    width: 100vw;
+}
+label{
+    color: white ;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    
+}
+.container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      width:  40vw;
+      border: 2px black solid;
+      background:rgb(24, 11, 24);
+
+}
+
+
+.input-box{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 15%;
+   background-color: white;   
+}
+
+.input-box input{
+    width: 80%;
+    height:90%;     
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+}
+
+img{
+     width: 25px;
+}
